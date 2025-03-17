@@ -28,8 +28,8 @@ Google Gemini AI API (for code analysis)
 CORS & dotenv (for secure API requests)
 
 Deployment
-Frontend: Vercel / Netlify
-Backend: Render / Railway
+Frontend: Vercel
+Backend: Render
 
 🚀 Getting Started
 1️⃣ Clone the Repository
