@@ -9,7 +9,7 @@ app.use(cors());
 
 //test routes
 app.get('/',(req,res)=>{
-    res.status(200).send("Hello World this is mern stack");
+    res.status(200).send("This is ai powered code reviewer created by Kartavya Gore\n Visit here : https://ai-powered-code-reviewer-teal.vercel.app/");
 })
 
 app.use('/ai', aiRoutes)
