@@ -68,26 +68,26 @@ export const API_BASE_URL = "https://your-backend-url.onrender.com";
 bash
 Copy code
 npm start
-🚀 Deployment Guide
+
+🚀 Deployment Guide :
 ✅ Deploying Backend (Render)
 Push your code to GitHub
 Go to Render.com → Create a new Web Service
 Connect GitHub Repo → Select backend folder
 Set Environment Variables (PORT, MONGODB_URI, GEMINI_API_KEY)
 Deploy → Your API is now live!
+
 ✅ Deploying Frontend (Vercel)
 Push your frontend code to GitHub
 Go to Vercel → Click "New Project"
 Connect GitHub Repo → Select frontend folder
 Set Environment Variable REACT_APP_API_URL = your_backend_url
 Deploy → Your frontend is now live!
+
 🛠️ API Endpoints
-Method	Endpoint	Description
-POST	/api/review	Reviews code and provides suggestions
-GET	/api/history	Fetches past code reviews
-POST	/api/auth	Handles user authentication
-📸 Screenshots
-AI Code Review in Action	Error Detection & Fixes
+
+POST  /ai/get-review  Reviews code and provides suggestions
+
 📌 Future Enhancements
 🚀 Multi-language support (Python, Java, etc.)
 🚀 AI-powered code refactoring suggestions
